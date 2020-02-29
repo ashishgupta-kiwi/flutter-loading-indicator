@@ -24,20 +24,16 @@ class Loader extends StatelessWidget  {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              // Container(
-              //   width: 30,
-              //   height: 30,
-              //   alignment: Alignment.center,
-              //   padding: const EdgeInsets.only(top: 10),
-              //   decoration: new BoxDecoration(
-              //     image: new DecorationImage(
-              //       image: new AssetImage("assets/spinner.gif"),
-              //     ),
-              //   ),
-              //   // child: Text('Loading...', style: TextStyle(color: Colors.white70, fontSize: 18)),
-              // ),
               Container(
-                child: CupertinoActivityIndicator()
+                width: 30,
+                height: 30,
+                alignment: Alignment.center,
+                padding: const EdgeInsets.only(top: 10),
+                decoration: new BoxDecoration(
+                  image: new DecorationImage(
+                    image: new AssetImage("assets/spinner.gif"),
+                  ),
+                ),
               ),
               Container(
                 margin: const EdgeInsets.only(top: 5),
